@@ -1,0 +1,25 @@
+# 기본은 전부 빼고, 올릴 것만 허용한다.
+# 원본·정리 데이터(DataGuide, WRDS)는 이용 계약상 올리지 않는다.
+/*
+
+!/.gitignore
+!/README.md
+
+# 코드: 데이터 정리 + 공통 함수 + 가치 팩터 분석
+!/scripts/
+/scripts/*
+!/scripts/0*.py
+!/scripts/korea_parsers.py
+!/scripts/팩터공통.py
+!/scripts/가치팩터*.py
+
+# 결과: 그래프(png)만. csv·parquet에는 종목별 구성이나 FnGuide 지수 값이 섞여 있어서 뺀다
+!/결과/
+/결과/**
+!/결과/**/
+!/결과/**/*.png
+/결과/발표/
+/결과/모멘텀팩터(WML)/
+
+__pycache__/
+~$*
